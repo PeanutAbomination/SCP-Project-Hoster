@@ -66,9 +66,6 @@ clients.on("messageCreate", async (message) => {
        )
        message.channel.send({embeds: [embed]})
      }else
-     if (message.content.startsWith(prefix + "db check sec")){
-       var 
-     }
      if (message.content.startsWith(prefix + "db check file ")){
        var TotalPath2 = "0"
        var FilePath2 = ""
