@@ -9,7 +9,7 @@ var version = '1.6.6';
 var O5perm = "775247639083614218" || "735410155432312854" || "572987740283731969" || "692105056119554079" || "729573721735561236";
 const packageJSON = require("./package.json");
 const fs = require(`fs`);
-
+const { setTimeout } = require("timers/promises");
 var CuteImages = ["https://i.ibb.co/sJSYD9Q/cute2.jpg", "https://i.ibb.co/YcdzCPm/cute1.png","https://i.ibb.co/YkRpBk9/cute3.jpg","https://i.ibb.co/gTmW6Pc/cute4.jpg","https://i.ibb.co/c2d7206/cute5.jpg","https://i.ibb.co/tCVFbL1/cute6.jpg","https://i.ibb.co/4FTxnt2/cute7.jpg","https://i.ibb.co/xJDDNJm/cute8.jpg","https://i.ibb.co/B3YsmFn/cute9.png" ];
 getImage = function() {
   return CuteImages[Math.floor(Math.random() * CuteImages.length)];
